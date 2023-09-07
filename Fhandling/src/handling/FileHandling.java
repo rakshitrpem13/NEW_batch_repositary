@@ -8,6 +8,8 @@ import java.io.IOException;
 public class FileHandling {
 	public void Datahandling() throws IOException
 	{
+		
+		System.out.println("hi");
 		File f=new File("../Fhandling"); // for creating connection with file //.. relative path
 		FileReader fr=new FileReader(f); // read the data character by character;
 		int a; // a is a integer 
